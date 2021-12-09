@@ -41,6 +41,15 @@ li:hover {
     display: flex;
 }
 
+.search-bar {
+    border-radius: 50px;
+    border: solid #9767A9;
+}
+
+.search-circle {
+    outline: none;
+}
+
 /* 
 !! TO-DO: descobrir como faz pra deixar a barra de pesquisa redondinha!! #search-bar {
     border-radius: 0 50% 0 30%;
@@ -122,16 +131,127 @@ li:hover {
 }
 
 .gallery-text1 {
-    padding: 60px;
+    padding: 40px 20px 0 20px;
     background-color: #9767A9;
     color: white;
     position: absolute;
     left: 13vw;
     top: 20vw;
-    height: 500px;
+    height: 400px;
     width: 480px;
 }
 
 .gallery-text1 h2 {
+    margin-bottom: 2vw;
+}
+
+.gallery-img2 {
+    position: absolute;
+    z-index: 0;
+    left: 51vw;
+    top: 11vw;
+}
+
+.gallery-text2 {
+    padding: 40px 20px 0 20px;
+    background-color: #9767A9;
+    color: white;
+    position: absolute;
+    left: 57.9vw;
+    top: 35vw;
+    height: 400px;
+    width: 480px;
+}
+
+.gallery-text2 h2 {
+    margin-bottom: 2vw;
+}
+
+.gallery-img3 {
+    position: absolute;
+    z-index: 0;
+    top: 48vw;
+    left: 5vw;
+}
+
+.gallery-text3 {
+    padding: 40px 20px 0 20px;
+    position: absolute;
+    background-color: #9767A9;
+    color: white;
+    height: 275px;
+    width: 480px;
+    top: 70vw;
+    left: 13vw;
+}
+
+.gallery-text3 h2 {
+    margin-bottom: 2vw;
+}
+
+.gallery-img4 {
+    position: absolute;
+    z-index: 0;
+    top: 75vw;
+    left: 51vw;
+
+}
+
+.gallery-text4 {
+    padding: 40px 20px 0 20px;
+    position: absolute;
+    background-color: #9767A9;
+    color: white;
+    height: 350px;
+    width: 480px;
+    top: 105vw;
+    left: 57.9vw;
+}
+
+.gallery-text4 h2 {
+    margin-bottom: 2vw;
+}
+
+.gallery-img5 {
+    position: absolute;
+    z-index: 0;
+    top: 130vw;
+    left: 5vw;
+}
+
+.gallery-text5 {
+    padding: 40px 20px 0 20px;
+    position: absolute;
+    background-color: #9767A9;
+    height: 370px;
+    width: 480px;
+    color: white;
+    left: 13vw;
+    top: 160vw;
+}
+
+.gallery-text5 h2 {
+    margin-bottom: 2vw;
+}
+
+.gallery-img6 {
+    position: absolute;
+    z-index: 0;
+    top: 165vw;
+    left: 51vw;
+}
+
+.gallery-text6 {
+    padding: 40px 20px 0 20px;
+    position: absolute;
+    background-color: #9767A9;
+    color: white;
+    height: 300px;
+    width: 480px;
+    top: 191vw;
+    left: 57.9vw;
+}
+
+.gallery-text6 h2 {
     margin-bottom: 2vw;
 }
