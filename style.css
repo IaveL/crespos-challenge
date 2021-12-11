@@ -37,7 +37,7 @@ li:hover {
 }
 
 .search-media {
-    margin-right: 6.5vw;
+    /* margin-right: 6.5vw; */
     display: flex;
 }
 
@@ -48,6 +48,13 @@ li:hover {
 
 .search-circle {
     outline: none;
+}
+
+.social-media {
+    margin-right: 70px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* 
@@ -116,6 +123,9 @@ li:hover {
 
 .gallery {
     position: relative;
+    border: solid black;
+    height: 190vw;
+    margin-bottom: 5vw;
 }
 
 .gallery img {
@@ -192,7 +202,7 @@ li:hover {
 .gallery-img4 {
     position: absolute;
     z-index: 0;
-    top: 75vw;
+    top: 65vw;
     left: 51vw;
 
 }
@@ -204,7 +214,7 @@ li:hover {
     color: white;
     height: 350px;
     width: 480px;
-    top: 105vw;
+    top: 90vw;
     left: 57.9vw;
 }
 
@@ -215,7 +225,7 @@ li:hover {
 .gallery-img5 {
     position: absolute;
     z-index: 0;
-    top: 130vw;
+    top: 98vw;
     left: 5vw;
 }
 
@@ -227,7 +237,7 @@ li:hover {
     width: 480px;
     color: white;
     left: 13vw;
-    top: 160vw;
+    top: 120vw;
 }
 
 .gallery-text5 h2 {
@@ -237,7 +247,7 @@ li:hover {
 .gallery-img6 {
     position: absolute;
     z-index: 0;
-    top: 165vw;
+    top: 115vw;
     left: 51vw;
 }
 
@@ -248,10 +258,71 @@ li:hover {
     color: white;
     height: 300px;
     width: 480px;
-    top: 191vw;
+    top: 137vw;
     left: 57.9vw;
 }
 
 .gallery-text6 h2 {
     margin-bottom: 2vw;
+}
+
+.gallery-img7 {
+    position: absolute;
+    z-index: 0;
+    top: 149vw;
+    left: 5vw;
+}
+
+.gallery-text7 {
+    padding: 40px 20px 0 20px;
+    position: absolute;
+    background-color: #9767A9;
+    height: 300px;
+    width: 480px;
+    color: white;
+    left: 13vw;
+    top: 173vw;
+}
+
+.gallery-text7 h2 {
+    margin-bottom: 2vw;
+}
+
+.cacho {
+    position: absolute;
+    top: 159vw;
+    left: 58vw;
+    
+}
+
+.cacho img {
+    width: 30vw;
+}
+
+.bottom-gallery {
+    display: flex;
+    border: solid yellow;
+    padding-left: 4.2vw;
+}
+
+.column-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-1 img {
+    width: 18vw;
+    margin-bottom: 10px;
+    border: solid black;
+}
+
+.column-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-2 img {
+    height: 25vh;
+    width: 13vw;
+    /* margin: 10px; */
 }
