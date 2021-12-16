@@ -119,11 +119,10 @@ li:hover {
     height: 400px;
     left: 62vw; 
     top: 3vh;
-}
+    }
 
 .gallery {
     position: relative;
-    border: solid black;
     height: 190vw;
     margin-bottom: 5vw;
 }
@@ -300,29 +299,94 @@ li:hover {
 }
 
 .bottom-gallery {
+    height: 115vh;
+    width: 1000px;
     display: flex;
-    border: solid yellow;
-    padding-left: 4.2vw;
+    flex-wrap: wrap;
+    margin-left: 5vw;
 }
 
-.column-1 {
+.king {
+    width: 270px;
+    height: 445px;
+}
+
+.beyonce {
+    width: 250px;
+    height: 216px;
+    margin-left: 31px;
+}
+
+.killmonger {
+    width: 250px;
+    height: 212px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 232px;
+    
+}
+
+.cigar {
+    height: 444px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.cabeludo-2 {
+    height: 663px;
+    width: 280px;
+    margin-left: 849px;
+    margin-top: -580px;
+}
+
+.gallery-1 {
+    height: 662px;
+    width: 280px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    margin-left: 964px;
+    margin-top: -785px;
 }
 
-.column-1 img {
-    width: 18vw;
-    margin-bottom: 10px;
-    border: solid black;
+.modelo {
+    height: 410px;
+    width: 254px;
+    /* margin-top: -5000000px; */
+    margin-left: 190px;
 }
 
-.column-2 {
+.tranca {
+    height: 224px;
+    width: 254px;
+    margin-left: 190px;
+}
+
+.gallery-2 {
+    height: 230px;
+    width: 654px;
+    position: absolute;
+    margin-top: 464px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.column-2 img {
-    height: 25vh;
-    width: 13vw;
-    /* margin: 10px; */
+.doggy-dog {
+    height: 199px;
+    width: 250px;
+    margin-left: 88%;
+    position: absolute;
+}
+
+.thais-araujo {
+    height: 199px;
+    width: 250px;
+    margin-left: 46%;
+    position: absolute;
+}
+
+.gloria-maria {
+    height: 199px;
+    width: 270px;
 }
