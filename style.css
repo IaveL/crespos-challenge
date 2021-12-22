@@ -41,13 +41,10 @@ li:hover {
     display: flex;
 }
 
-.search-bar {
-    border-radius: 50px;
-    border: solid #9767A9;
-}
-
 .search-circle {
-    outline: none;
+    border-radius: 50px;
+    padding-left: 10px;
+    border: 2px solid #9767A9;
 }
 
 .social-media {
@@ -299,94 +296,155 @@ li:hover {
 }
 
 .bottom-gallery {
-    height: 115vh;
-    width: 1000px;
     display: flex;
-    flex-wrap: wrap;
-    margin-left: 5vw;
+    width: fit-content;
+    margin-left: 3vw;
+}
+
+.column-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .king {
-    width: 270px;
-    height: 445px;
-}
-
-.beyonce {
-    width: 250px;
-    height: 216px;
-    margin-left: 31px;
-}
-
-.killmonger {
-    width: 250px;
-    height: 212px;
-    position: absolute;
-    margin-left: 300px;
-    margin-top: 232px;
-    
-}
-
-.cigar {
-    height: 444px;
-    width: 250px;
-    margin-left: 20px;
-}
-
-.cabeludo-2 {
-    height: 663px;
-    width: 280px;
-    margin-left: 849px;
-    margin-top: -580px;
-}
-
-.gallery-1 {
-    height: 662px;
-    width: 280px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 964px;
-    margin-top: -785px;
-}
-
-.modelo {
-    height: 410px;
-    width: 254px;
-    /* margin-top: -5000000px; */
-    margin-left: 190px;
-}
-
-.tranca {
-    height: 224px;
-    width: 254px;
-    margin-left: 190px;
-}
-
-.gallery-2 {
-    height: 230px;
-    width: 654px;
-    position: absolute;
-    margin-top: 464px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.doggy-dog {
-    height: 199px;
-    width: 250px;
-    margin-left: 88%;
-    position: absolute;
-}
-
-.thais-araujo {
-    height: 199px;
-    width: 250px;
-    margin-left: 46%;
-    position: absolute;
+    width: 398px;
+    height: 598px;
+    background-image: url(assets/king.png);
+    background-size: cover;
 }
 
 .gloria-maria {
-    height: 199px;
-    width: 270px;
+    background-image: url(assets/gloria-maria.png);
+    width: 398px;
+    height: 237px;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.column-2 {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+.beyonce {
+    background-image: url(assets/beyonce.png);
+    width: 260px;
+    height: 299px;
+    background-size: cover;
+}
+
+.killmonger {
+    width: 260px;
+    height: 282px;
+    background-image: url(assets/killmonger.png);
+    background-size: cover;
+}
+
+.thais-araujo {
+    background-image: url(assets/thais-araujo.png);
+    width: 260px;
+    height: 237px;
+    background-size: cover;
+}
+
+.column-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-left: 15px;
+}
+
+.cigar {
+    width: 243px;
+    height: 598px;
+    background-image: url(assets/cigar.png);
+    background-size: cover;
+}
+.dogg {
+    width: 243px;
+    height: 237px;
+    background-image: url(assets/dogg.png);
+    background-size: cover;
+}
+
+.hairy-guy {
+    margin-left: 15px;
+    height: 100%;
+    width: 300px;
+    background-image: url(assets/hairy-guy.png);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.column-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 15px;
+}
+
+.braids {
+    background-image: url(assets/braids.png);
+    background-size: cover;
+    width: 240px;
+    height: 237px;
+}
+
+.model {
+    width: 240px;
+    height: 594px;
+    background-image: url(assets/model.png);
+    background-size: cover;
+    
+}
+
+footer {
+    color: white;
+    display: flex;
+    height: 13vh;
+    width: 100%;
+    background-color: #9767A9;
+    margin-top: 50px;
+}
+
+.credits {
+    display: flex;
+    font-weight: lighter;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 3vw;
+    width: 850px;
+}
+
+.nav-buttons {
+    margin-left: 110px;
+    display: flex;
+    width: 650px;
+    justify-content: space-evenly;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+
+.button img {
+    width: 35px;
+    height: 35px;
+    margin: 8px;
+}
+
+.button:hover {
+    background-color: rgba(172, 149, 187, 0.397);
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: none;
 }
